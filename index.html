@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="./style/mobile.css">
+    <title>StopWatch</title>
+</head>
+
+<body dir="rtl">
+
+
+    <div id="main-list">
+        <div class="max-width" id="search">
+            <input type="text" placeholder="جستجوی نام تایمر" id="text-search">
+        </div>
+        <div class="max-width" id="new-timer">
+            <input type="text" placeholder="نام تایمر جدید" id="text-new-timer-name">
+            <button id="btn-add-timer">
+                <h1>+</h1>
+            </button>
+        </div>
+    </div>
+
+    <div class="hidden" id="error-card">
+        <h5>
+            لطفا نامی برای تایمر در نظر بگیرید.
+        </h5>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

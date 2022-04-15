@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 16px;
+}
+
+.bg-light {
+    background-color: #f4f4f4f4;
+}
+
+.bg-dark {
+    background-color: #33333333;
+}
+
+#main-list {
+    margin: 1rem auto;
+    align-self: center;
+    background-color: grey;
+    flex-direction: column;
+    max-width: 800px;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 750px;
+    border-radius: 1rem;
+    border: #33333333 solid 4px;
+}
+
+.max-width {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 750px;
+}
+
+
+#text-search {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-family: 'vazir';
+    font-size: 1.5rem;
+    border: #33333333 solid 4px;
+    border-radius: 1rem;
+}
+
+.circle-button {
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.25rem;
+    padding: 1rem;
+}
+
+.circle-button:hover {
+    background-color: #fff3f3f3;
+
+}
+
+body {
+    height: 100vh;
+    font-size: 1.5rem;
+    font-family: 'vazir';
+    background-color: #333;
+}
+
+#timer-and-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.text-name {
+    max-width: 45%;
+    text-overflow: ellipsis;
+    color: #333333aa;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#btn-add-timer {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    background-color: #f4f4f4f4;
+    border: #33333333 solid 4px;
+    border-radius: 1rem;
+}
+
+#btn-add-timer:hover {
+    background-color: #fff3f3f3;
+}
+
+#text-new-timer-name {
+    width: 45%;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: 'vazir';
+    font-size: 1.5rem;
+    border: #33333333 solid 4px;
+    border-radius: 1rem;
+}
+
+input:focus {
+    outline: #1616e616 solid 5px;
+}
+
+#error-card {
+    background-color: red;
+    max-width: 800px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}

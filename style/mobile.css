@@ -1,0 +1,21 @@
+html {
+    font-size: 8px;
+}
+
+#main-list {
+    max-width: 575px;
+}
+
+.container {
+    max-width: 550px;
+
+}
+
+.max-width {
+    max-width: 550px;
+}
+
+#error-card {
+    max-width: 575px;
+    font-size: 3rem;
+}
